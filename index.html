@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>图片轮播jQuery插件</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/carousel-plugin.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#pic').carousel({
+            // 'width': 1200,
+            // 'height': 600,
+            'num': 5
+        });
+    });
+    </script>
+    <style type="text/css">
+    body {
+        margin: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="pic">
+        <div>
+            <img src="img/01.jpg" alt="" />
+            <img src="img/02.jpg" alt="" />
+            <img src="img/03.jpg" alt="" />
+            <img src="img/04.jpg" alt="" />
+            <img src="img/05.jpg" alt="" />
+        </div>
+    </div>
+</body>
+
+</html>
